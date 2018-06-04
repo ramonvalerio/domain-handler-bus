@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>DomainHandlerBus.Consumer</AssemblyName>
+    <RootNamespace>DomainHandlerBus.Consumer</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DomainHandlerBus.EventBus\DomainHandlerBus.EventBus.csproj" />
+  </ItemGroup>
+
+</Project>
